@@ -10,6 +10,7 @@ public class Fleet
 {
     private String name;
     private ArrayList<Machine> machines;
+    private boolean isWeak;
 
     /**
      * Constructor de la clase Fleet
@@ -27,6 +28,10 @@ public class Fleet
         for (Machine m:machines){
             m.setLatitude(m.getLatitude()+1);
         }
+    }
+
+    public weakMachines(){
+        
     }
 
 }
