@@ -3,12 +3,11 @@ import java.util.ArrayList;
 /**
  * Flota
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Diana Hernández y Raquel Selma)
+ * @version (10 de Marzo del 2025)
  */
 public class Fleet
 {
-    // instance variables - replace the example below with your own
     private String name;
     private ArrayList<Machine> machines;
 
